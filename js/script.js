@@ -13,14 +13,9 @@ console.log(color, typeof color);
 const number=Math.floor(Math.random() * 101); //number
 console.log(number, typeof number);
 
-const title="Questa è la tua password!" //string
-console.log(title, typeof title);
 
-//creazione messaggio
-const message=`<strong> ${title}</strong>`;
 //STAMPA MESSAGGIO
-document.getElementById("title").innerHTML=message;
-
+document.getElementById("title").innerHTML="Questa è la tua password";
 
 //creazione messaggio
 const resultMessage=`${userName}${userSurname}${color}`;
