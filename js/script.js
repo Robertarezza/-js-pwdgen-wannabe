@@ -13,19 +13,17 @@ console.log(color, typeof color);
 const number=Math.floor(Math.random() * 101); //number
 console.log(number, typeof number);
 
-const title="Questa è la tua password!"
+const title="Questa è la tua password!" //string
 console.log(title, typeof title);
 
 //creazione messaggio
 const message=`<strong> ${title}</strong>`;
-
 //STAMPA MESSAGGIO
 document.getElementById("title").innerHTML=message;
 
 
 //creazione messaggio
 const resultMessage=`${userName}${userSurname}${color}`;
-
 //STAMPA MESSAGGIO
-document.getElementById("result").innerHTML=`${resultMessage}${Math.floor(Math.random() * 100)}` ;
+document.getElementById("result").innerHTML=`${resultMessage}${number}` ;
 
